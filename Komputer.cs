@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace nyoba
+namespace Tugas2
 {
     class Komputer
     {
@@ -54,4 +54,5 @@ namespace nyoba
             Console.WriteLine($"Sedang Menyala: {SedangMenyala}");
         }
     }
+
 }
