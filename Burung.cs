@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace nyoba
+namespace Tugas2
 {
     internal class Burung
     {
@@ -30,4 +30,5 @@ namespace nyoba
             Console.WriteLine($"{Nama} berkicau: Cuit cuit!");
         }
     }
+
 }
