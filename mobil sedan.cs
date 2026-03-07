@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace nyoba
+namespace Tugas2
 {
     internal class mobil_sedan
     {
@@ -42,4 +42,5 @@ namespace nyoba
             Console.WriteLine("Status Mesin: " + (mesinHidup ? "Menyala" : "Mati"));
         }
     }
+
 }
