@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-// CLASS INDUK
+
 public class Lift
 {
     private bool Bergerak;
@@ -28,7 +28,7 @@ public class Lift
     }
 }
 
-// CLASS ANAK
+
 public class LiftPenumpang : Lift
 {
     private string JumlahOrang;
@@ -58,17 +58,16 @@ public class LiftPenumpang : Lift
     }
 }
 
-// PROGRAM UTAMA
 class Program
 {
     static void Main()
     {
         LiftPenumpang lift = new LiftPenumpang(
-            true,      // Bergerak
-            "Lantai 3", // Tombol
-            "3",       // No_Lantai
-            "6 Orang", // JumlahOrang
-            false      // LiftPenuh
+            true,      
+            "Lantai 3", 
+            "3",       
+            "6 Orang", 
+            false      
         );
 
         lift.TampilPenumpang();
